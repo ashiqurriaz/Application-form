@@ -1,0 +1,78 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+body{
+    /*background-color: rgb(201, 223, 233);*/
+    background: url(images/pic.jpg);
+   background-size: cover;
+    display: flex;
+  
+}
+
+.container{
+    background: rgb(243, 238, 238);
+    width: 600px;
+    height: 830px;
+    margin: 0 auto;
+    margin-top: 60px;
+    border-radius: 10px;
+    
+}
+
+.container h1{
+    margin-top: 15px;
+    padding: 10px;
+    text-align: center;
+    font-size: 30px;
+    justify-content: center;
+}
+
+.form-content{
+    margin-top: 20px;
+    margin-left: 30px;
+    margin-right: 30px;
+}
+
+.form-content-element{
+    margin: 5px;
+    padding: 5px;
+    display: flex;
+    flex-direction: column;
+}
+
+label{
+    font-size: 20px;
+}
+
+input,select, textarea{
+    border: 1px solid rgb(189, 187, 187);
+    padding: 6px 10px;
+    border-radius: 5px;
+    font-size: 12px;
+}
+
+.button-container{
+    display: flex;
+    justify-content: flex-end;
+    margin-right: 40px;
+    margin-top: 50px
+}
+
+button{
+    background: red;
+    padding: 15px;
+    border: 2px solid transparent;
+    border-radius: 7px;
+    color: white;
+    transition: 0.3s ease-in;
+}
+
+.button-container :hover {
+    background-color: gainsboro;
+    border: 2px solid red;
+    color: black;
+    transition: 0.3s ease-out ;
+    cursor: pointer;
+}
